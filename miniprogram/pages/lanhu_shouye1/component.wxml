@@ -1,0 +1,50 @@
+<view class="page">
+  <view class="section_1">
+    <view class="group_4">
+      <view class="box_7">
+        <text lines="1" class="text_12">9:41</text>
+        <image src="../../images/lanhu_shouye1/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_4"></image>
+        <image src="../../images/lanhu_shouye1/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_5"></image>
+        <image src="../../images/lanhu_shouye1/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_6"></image>
+      </view>
+      <view class="box_8">
+        <image src="../../images/lanhu_shouye1/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="icon_1"></image>
+        <view class="image-text_1">
+          <image src="../../images/lanhu_shouye1/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="icon_2"></image>
+          <text lines="1" class="paragraph_1">时间<br/>胶囊</text>
+        </view>
+        <image src="../../images/lanhu_shouye1/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="applet-top-bar_1"></image>
+      </view>
+      <image src="../../images/lanhu_shouye1/SketchPnge89568cc08d72558a278b806f811f05f41f58afa2c0ae598171016fe6850b428.png" class="image_1"></image>
+    </view>
+    <view class="box_3">
+      <view class="group_5">
+        <view class="text-group_2">
+          <text lines="1" class="text_2">时间胶囊</text>
+          <text lines="1" decode="true" class="text_3">Time&nbsp;capsule</text>
+        </view>
+        <text lines="1" class="text_4">时间胶囊</text>
+        <text lines="1" decode="true" class="text_5">Time&nbsp;capsule</text>
+      </view>
+      <view class="group_6">
+        <text lines="1" class="text_6">Swipe</text>
+        <image src="../../images/lanhu_shouye1/SketchPng808f9ab20fb4713025c097529a559996cb01a1797ee8c38396e9e6b046d0df1e.png" class="image_2"></image>
+        <text lines="1" class="text_7">Swipe</text>
+      </view>
+    </view>
+    <view class="group_7">
+      <view class="box_9">
+        <view class="group_2">
+          <image src="../../images/lanhu_shouye1/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="icon_3"></image>
+          <text lines="1" decode="true" class="text_8">About&nbsp;me</text>
+          <text lines="1" class="text_9">时间胶囊的故事</text>
+        </view>
+        <view class="group_3">
+          <image src="../../images/lanhu_shouye1/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_3"></image>
+          <text lines="1" class="text_10">Exclusive</text>
+          <text lines="1" class="text_11">创建我的胶囊</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

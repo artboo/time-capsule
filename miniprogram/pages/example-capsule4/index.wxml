@@ -1,0 +1,7 @@
+<!--pages/example-capsule1/index.wxml-->
+<text>夫妻结婚7周年</text>
+ 
+
+<text>video</text>
+
+<view class="button with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view>

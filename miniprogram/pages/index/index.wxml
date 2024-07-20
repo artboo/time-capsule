@@ -1,0 +1,300 @@
+<swiper indicator-dots="{{false}}" bindchange="handleSwiper" current="{{currentTab}}">
+
+  <swiper-item style="overflow: scroll;">
+    <!-- <view class="tab_title">tab{{currentTab+1}}内容</view> -->
+    <scroll-view scroll-y refresher-enabled refresher-background="#F6F7F8" refresher-triggered="{{isRefresh}}" bindrefresherrefresh="refresherpulling" bindscrolltolower="handleTolower">
+      <!-- <view>改这里~</view> -->
+      <view class="page_home1">
+        <view class="section_1_home1">
+          <view class="group_4_home1">
+            <view class="box_7_home1">
+              <text lines="1" class="text_12_home1">9:41</text>
+              <image src="../../images/lanhu_shouye1/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_4_home1"></image>
+              <image src="../../images/lanhu_shouye1/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_5_home1"></image>
+              <image src="../../images/lanhu_shouye1/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_6_home1"></image>
+            </view>
+            <view class="box_8_home1">
+              <image src="../../images/lanhu_shouye1/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="icon_1_home1"></image>
+              <view class="image-text_1_home1">
+                <image src="../../images/lanhu_shouye1/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="icon_2_home1"></image>
+                <text lines="1" class="paragraph_1_home1">时间<br />胶囊</text>
+              </view>
+              <image src="../../images/lanhu_shouye1/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="applet-top-bar_1_home1"></image>
+            </view>
+            <image src="../../images/lanhu_shouye1/SketchPnge89568cc08d72558a278b806f811f05f41f58afa2c0ae598171016fe6850b428.png" class="image_1_home1"></image>
+          </view>
+          <view class="box_3_home1">
+            <view class="group_5_home1">
+              <view class="text-group_2_home1">
+                <text lines="1" class="text_2_home1">时间胶囊</text>
+                <text lines="1" decode="true" class="text_3_home1">Time&nbsp;capsule</text>
+              </view>
+              <text lines="1" class="text_4_home1">时间胶囊</text>
+              <text lines="1" decode="true" class="text_5_home1">Time&nbsp;capsule</text>
+            </view>
+            <view class="group_6_home1">
+              <text lines="1" class="text_6_home1">Swipe</text>
+              <image src="../../images/lanhu_shouye1/SketchPng808f9ab20fb4713025c097529a559996cb01a1797ee8c38396e9e6b046d0df1e.png" class="image_2_home1"></image>
+              <text lines="1" class="text_7_home1">Swipe</text>
+            </view>
+          </view>
+          <view class="group_7_home1">
+            <view class="box_9_home1">
+              <view class="group_2_home1" bind:tap="gotoClassicalExamplesPage">
+                <image src="../../images/lanhu_shouye1/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="icon_3_home1"></image>
+                <text lines="1" decode="true" class="text_8_home1">About&nbsp;me</text>
+                <text lines="1" class="text_9_home1">时间胶囊的故事</text>
+              </view>
+              <view class="group_3_home1">
+                <image src="../../images/lanhu_shouye1/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_3_home1"></image>
+                <text lines="1" class="text_10_home1">Exclusive</text>
+                <text lines="1" class="text_11_home1">创建我的胶囊</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item style="overflow: scroll;">
+    <!-- <view class="tab_title">tab{{currentTab+1}}内容</view> -->
+    <scroll-view scroll-y refresher-enabled refresher-background="#F6F7F8" refresher-triggered="{{isRefresh}}" bindrefresherrefresh="refresherpulling" bindscrolltolower="handleTolower">
+      <!-- <view>第2条数据1111~</view> -->
+      <view class="page_home2">
+        <view class="block_1_home2">
+          <view class="box_1_home2">
+            <view class="box_2_home2">
+              <text lines="1" class="text_1_home2">9:41</text>
+              <image src="../../images/lanhu_shouye2/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_1_home2"></image>
+              <image src="../../images/lanhu_shouye2/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_2_home2"></image>
+              <image src="../../images/lanhu_shouye2/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_3_home2"></image>
+            </view>
+            <view class="box_3_home2">
+              <image src="../../images/lanhu_shouye2/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="label_4_home2"></image>
+              <view class="image-text_1_home2">
+                <image src="../../images/lanhu_shouye2/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="image_1_home2"></image>
+                <text lines="1" class="text-group_1_home2">时间<br />胶囊</text>
+              </view>
+              <image src="../../images/lanhu_shouye2/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="image_2_home2"></image>
+            </view>
+            <view class="box_4_home2">
+              <view class="group_1_home2">
+                <image src="../../images/lanhu_shouye2/SketchPngc0cf05e2a68865a7dd8cf0060110e1c82ef2e66ede4c1d4b77b7057aa01e21ae.png" class="thumbnail_1_home2"></image>
+                <view class="text-group_2">
+                  <text lines="1" class="paragraph_1_home2">仪式的开始：<br />选择与封存</text>
+                  <text lines="1" decode="true" class="text_2_home2">Selection&nbsp;and&nbsp;Sequestration</text>
+                </view>
+                <text lines="1" class="text_3_home2">在庄重的仪式中，我们将这些珍贵的记忆一一放入时间胶囊。伴随着低沉的钟声和悠扬的颂歌，我们用密封蜡和金属盖将胶囊封闭，确保它能够抵御时间的侵蚀，穿越无数个春秋。</text>
+              </view>
+            </view>
+          </view>
+          <view class="box_5_home2">
+            <view class="group_2_home2" >
+              <image src="../../images/lanhu_shouye2/SketchPng11fa824abdee94c4ba36c95d24042ea99b0a36666270ea2e9c55357a98c7479f.png" class="image_3_home2"></image>
+              <view class="text-group_3">
+                <text lines="1" class="paragraph_2_home2">时间胶囊：<br />封存今日，启于未来</text>
+                <text lines="1" decode="true" class="text_4_home2">Seal&nbsp;Today,&nbsp;Start&nbsp;Tomorrow</text>
+              </view>
+              <text lines="1" class="text_5_home2">在岁月的长河中，我们轻手轻脚，将一段段时光轻轻折叠，放入一个神秘的容器。这不仅是一个简单的收藏行为，而是一次神圣的仪式，一次与时间的对话，一次对未来的深情寄托。</text>
+            </view>
+            <image src="../../images/lanhu_shouye2/SketchPng47c440971c0a9f6985c9de72690e7efb8c13df2be750dd339cebf1323cf93160.png" class="image_4_home2"></image>
+          </view>
+          <view class="box_6_home2">
+            <view class="section_1_home2">
+              <view class="block_2_home2"  bind:tap="gotoClassicalExamplesPage">
+                <image src="../../images/lanhu_shouye2/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="image_5_home2"></image>
+                <text lines="1" decode="true" class="text_6_home2">About&nbsp;me</text>
+                <text lines="1" class="text_7_home2">时间胶囊的故事</text>
+              </view>
+              <view class="block_3_home2">
+                <image src="../../images/lanhu_shouye2/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_6_home2"></image>
+                <text lines="1" class="text_8_home2">Exclusive</text>
+                <text lines="1" class="text_9_home2">创建我的胶囊</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  </swiper-item>
+  <swiper-item style="overflow: scroll;">
+    <!-- <view class="tab_title">tab{{currentTab+1}}内容</view> -->
+    <scroll-view scroll-y refresher-enabled refresher-background="#F6F7F8" refresher-triggered="{{isRefresh}}" bindrefresherrefresh="refresherpulling" bindscrolltolower="handleTolower">
+      <!-- <view>第3条数据1111~</view> -->
+      <view class="page_home3">
+        <view class="block_1_home3">
+          <view class="group_1_home3">
+            <view class="group_2_home3">
+              <text lines="1" class="text_1_home3">9:41</text>
+              <image src="../../images/lanhu_shouye3/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_1_home3"></image>
+              <image src="../../images/lanhu_shouye3/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_2_home3"></image>
+              <image src="../../images/lanhu_shouye3/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_3_home3"></image>
+            </view>
+            <view class="group_3_home3">
+              <image src="../../images/lanhu_shouye3/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="label_4_home3"></image>
+              <view class="image-text_1_home3">
+                <image src="../../images/lanhu_shouye3/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="image_1_home3"></image>
+                <text lines="1" class="text-group_1_home3">时间<br />胶囊</text>
+              </view>
+              <image src="../../images/lanhu_shouye3/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="image_2_home3"></image>
+            </view>
+            <view class="group_4_home3">
+              <view class="block_2_home3">
+                <image src="../../images/lanhu_shouye3/SketchPngc0cf05e2a68865a7dd8cf0060110e1c82ef2e66ede4c1d4b77b7057aa01e21ae.png" class="thumbnail_1_home3"></image>
+                <view class="text-group_2_home3">
+                  <text lines="1" class="paragraph_1_home3">埋藏之地：<br />历史的见证</text>
+                  <text lines="1" decode="true" class="text_2_home3">Witness&nbsp;to&nbsp;History</text>
+                </view>
+                <text lines="1" class="text_3_home3">选择一个充满意义的地点，或许是一片古老的森林或许是一座城市的心脏。在这片土地上，时间胶囊将静静地沉睡，与大地同呼吸，与星辰共流转。它将成为历史的见证者，见证时代的变迁和人类的发展。</text>
+              </view>
+            </view>
+          </view>
+          <view class="group_5_home3">
+            <view class="group_6_home3">
+              <image src="../../images/lanhu_shouye3/SketchPng11fa824abdee94c4ba36c95d24042ea99b0a36666270ea2e9c55357a98c7479f.png" class="image_3_home3"></image>
+              <view class="text-group_3_home3">
+                <text lines="1" class="paragraph_2_home3">仪式的开始：<br />选择与封存</text>
+                <text lines="1" decode="true" class="text_4_home3">Selection&nbsp;and&nbsp;Sequestration</text>
+              </view>
+              <text lines="1" class="text_5_home3">在庄重的仪式中，我们将这些珍贵的记忆一一放入时间胶囊。伴随着低沉的钟声和悠扬的颂歌，我们用密封蜡和金属盖将胶囊封闭，确保它能够抵御时间的侵蚀，穿越无数个春秋。</text>
+            </view>
+            <image src="../../images/lanhu_shouye3/SketchPngc8ed52b0aeea708fc1f13eb198fb2e111aec258bb9188966b35ed220b1b6bf61.png" class="image_4_home3"></image>
+            <view class="group_7_home3"></view>
+          </view>
+          <view class="group_8_home3">
+            <view class="group_9_home3">
+              <view class="box_1_home3"  bind:tap="gotoClassicalExamplesPage">
+                <image src="../../images/lanhu_shouye3/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="image_5_home3"></image>
+                <text lines="1" decode="true" class="text_6_home3">About&nbsp;me</text>
+                <text lines="1" class="text_7_home3">时间胶囊的故事</text>
+              </view>
+              <view class="box_2_home3">
+                <image src="../../images/lanhu_shouye3/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_6_home3"></image>
+                <text lines="1" class="text_8_home3">Exclusive</text>
+                <text lines="1" class="text_9_home3">创建我的胶囊</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  </swiper-item>
+
+  <swiper-item style="overflow: scroll;">
+    <!-- <view class="tab_title">tab{{currentTab+1}}内容</view> -->
+    <scroll-view scroll-y refresher-enabled refresher-background="#F6F7F8" refresher-triggered="{{isRefresh}}" bindrefresherrefresh="refresherpulling" bindscrolltolower="handleTolower">
+      <view class="page_home4">
+        <view class="box_1_home4">
+          <view class="section_1_home4">
+            <view class="group_1_home4">
+              <text lines="1" class="text_1_home4">9:41</text>
+              <image src="../../images/lanhu_shouye4/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_1_home4"></image>
+              <image src="../../images/lanhu_shouye4/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_2_home4"></image>
+              <image src="../../images/lanhu_shouye4/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_3_home4"></image>
+            </view>
+            <view class="nav-bar_1_home4">
+              <image src="../../images/lanhu_shouye4/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="icon_1_home4"></image>
+              <image src="../../images/lanhu_shouye4/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="icon_2_home4"></image>
+              <text lines="1" class="paragraph_1_home4">时间<br />胶囊</text>
+              <image src="../../images/lanhu_shouye4/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="applet-top-bar_1_home4"></image>
+            </view>
+            <view class="group_2_home4">
+              <view class="group_3_home4">
+                <image src="../../images/lanhu_shouye4/SketchPngc0cf05e2a68865a7dd8cf0060110e1c82ef2e66ede4c1d4b77b7057aa01e21ae.png" class="thumbnail_1_home4"></image>
+                <view class="text-group_1_home4">
+                  <text lines="1" class="paragraph_2_home4">未来的召唤：<br />开启与启示</text>
+                  <text lines="1" decode="true" class="text_2_home4">Opening&nbsp;and&nbsp;Revelation</text>
+                </view>
+                <text lines="1" class="paragraph_3_home4">在未来的某一天，或许是几十年，几个世纪，当时问胶囊被重新打开，那将是一次跨越时空的对话。<br />未来的人们将通过这些物品，感受到我们这个时代的气息，理解我们的思想和情感，体会到我们对末来的憧憬和期待。<br />即使时间流逝，有些东西是永恒的一那就是我们对美好未来的不懈追求和无限想象。</text>
+              </view>
+            </view>
+          </view>
+          <view class="section_2_home4" >
+            <view class="section_3_home4">
+              <image src="../../images/lanhu_shouye4/SketchPng11fa824abdee94c4ba36c95d24042ea99b0a36666270ea2e9c55357a98c7479f.png" class="image_1_home4"></image>
+              <view class="text-group_2_home4">
+                <text lines="1" class="paragraph_4_home4">埋藏之地：<br />历史的见证</text>
+                <text lines="1" decode="true" class="text_3_home4">Witness&nbsp;to&nbsp;History</text>
+              </view>
+              <text lines="1" class="text_4_home4">选择一个充满意义的地点，或许是一片古老的森林或许是一座城市的心脏。在这片土地上，时间胶囊将静静地沉睡，与大地同呼吸，与星辰共流转。它将成为历史的见证者，见证时代的变迁和人类的发展。</text>
+            </view>
+            <image src="../../images/lanhu_shouye4/SketchPng9560200b1350390d588bfbc7dc1644a44245651ab75af4a3c3e55d1bf01b726a.png" class="image_2_home4"></image>
+            <view class="section_4_home4"></view>
+          </view>
+          <view class="section_5_home4">
+            <view class="box_2_home4">
+              <view class="box_3_home4"  bind:tap="gotoClassicalExamplesPage">
+                <image src="../../images/lanhu_shouye4/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="image_3_home4"></image>
+                <text lines="1" decode="true" class="text_5_home4">About&nbsp;me</text>
+                <text lines="1" class="text_6_home4">时间胶囊的故事</text>
+              </view>
+              <view class="box_4_home4">
+                <image src="../../images/lanhu_shouye4/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_4_home4"></image>
+                <text lines="1" class="text_7_home4">Exclusive</text>
+                <text lines="1" class="text_8_home4">创建我的胶囊</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  </swiper-item>
+
+  <swiper-item style="overflow: scroll;">
+    <!-- <view class="tab_title">tab{{currentTab+1}}内容</view> -->
+    <scroll-view scroll-y refresher-enabled refresher-background="#F6F7F8" refresher-triggered="{{isRefresh}}" bindrefresherrefresh="refresherpulling" bindscrolltolower="handleTolower">
+      <view class="page_home5">
+        <view class="group_1_home5">
+          <view class="group_2_home5">
+            <view class="box_1_home5">
+              <text lines="1" class="text_1_home5">9:41</text>
+              <image src="../../images/lanhu_shouye5/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_1_home5"></image>
+              <image src="../../images/lanhu_shouye5/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_2_home5"></image>
+              <image src="../../images/lanhu_shouye5/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_3_home5"></image>
+            </view>
+            <view class="box_2_home5">
+              <image src="../../images/lanhu_shouye5/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="label_4_home5"></image>
+              <view class="image-text_1_home5">
+                <image src="../../images/lanhu_shouye5/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="image_1_home5"></image>
+                <text lines="1" class="text-group_1_home5">时间<br />胶囊</text>
+              </view>
+              <image src="../../images/lanhu_shouye5/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="image_2_home5"></image>
+            </view>
+          </view>
+          <view class="group_3_home5">
+            <view class="box_3_home5">
+              <image src="../../images/lanhu_shouye5/SketchPng11fa824abdee94c4ba36c95d24042ea99b0a36666270ea2e9c55357a98c7479f.png" class="image_3_home5"></image>
+              <view class="text-group_2_home5">
+                <text lines="1" class="paragraph_1_home5">未来的召唤：<br />开启与启示</text>
+                <text lines="1" decode="true" class="text_2_home5">Opening&nbsp;and&nbsp;Revelation</text>
+              </view>
+              <text lines="1" class="paragraph_2_home5">在未来的某一天，或许是几十年，几个世纪，当时问胶囊被重新打开，那将是一次跨越时空的对话。<br />未来的人们将通过这些物品，感受到我们这个时代的气息，理解我们的思想和情感，体会到我们对末来的憧憬和期待。<br />即使时间流逝，有些东西是永恒的一那就是我们对美好未来的不懈追求和无限想象。</text>
+            </view>
+            <image src="../../images/lanhu_shouye5/SketchPnga4815b62cf29105d63132fb838e957da1c7d3623fb9e3b92b6927bf20815efd9.png" class="image_4_home5"></image>
+            <view class="box_4_home5"></view>
+          </view>
+          <view class="group_4_home5">
+            <view class="group_5_home5" >
+              <view class="group_6_home5" bind:tap="gotoClassicalExamplesPage">
+                <image src="../../images/lanhu_shouye5/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="image_5_home5"></image>
+                <text lines="1" decode="true" class="text_3_home5">About&nbsp;me</text>
+                <text lines="1" class="text_4_home5">时间胶囊的故事</text>
+              </view>
+              <view class="group_7_home5">
+                <image src="../../images/lanhu_shouye5/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_6_home5"></image>
+                <text lines="1" class="text_5_home5">Exclusive</text>
+                <text lines="1" class="text_6_home5">创建我的胶囊</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  </swiper-item>
+
+</swiper>

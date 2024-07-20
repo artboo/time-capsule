@@ -1,0 +1,54 @@
+<view class="page">
+  <view class="box_1">
+    <view class="section_1">
+      <view class="group_1">
+        <text lines="1" class="text_1">9:41</text>
+        <image src="../../images/lanhu_shouye4/SketchPng683147fd18df15ce0aad78d9c43fd31f15c6b6d16bf8338e82c380adeab3f8da.png" class="label_1"></image>
+        <image src="../../images/lanhu_shouye4/SketchPng84f27037718d0de0932bbe479343e1ee1efe03cb51c02df2b9f46607a9475951.png" class="label_2"></image>
+        <image src="../../images/lanhu_shouye4/SketchPngbcd4ac8223bbd48f2d2c72678e60e3c8950ced952aa4faecb1acdf74be561a98.png" class="label_3"></image>
+      </view>
+      <view class="nav-bar_1">
+        <image src="../../images/lanhu_shouye4/SketchPng36a74a9c657dedb45ed20f882c9258718850002c4e9b5369ad9035e97616375b.png" class="icon_1"></image>
+        <image src="../../images/lanhu_shouye4/SketchPngea288d118d05e8ac4bcab3c907d0fe180ce9c9a1a87739a3285ac4265f1f8c8c.png" class="icon_2"></image>
+        <text lines="1" class="paragraph_1">时间<br/>胶囊</text>
+        <image src="../../images/lanhu_shouye4/SketchPnge3a2a59313ca000c6e7d3a554d1a3b17f414cf41957bbf7b3d25b6c867b2dcf0.png" class="applet-top-bar_1"></image>
+      </view>
+      <view class="group_2">
+        <view class="group_3">
+          <image src="../../images/lanhu_shouye4/SketchPngc0cf05e2a68865a7dd8cf0060110e1c82ef2e66ede4c1d4b77b7057aa01e21ae.png" class="thumbnail_1"></image>
+          <view class="text-group_1">
+            <text lines="1" class="paragraph_2">未来的召唤：<br/>开启与启示</text>
+            <text lines="1" decode="true" class="text_2">Opening&nbsp;and&nbsp;Revelation</text>
+          </view>
+          <text lines="1" class="paragraph_3">在未来的某一天，或许是几十年，几个世纪，当时问胶囊被重新打开，那将是一次跨越时空的对话。<br/>未来的人们将通过这些物品，感受到我们这个时代的气息，理解我们的思想和情感，体会到我们对末来的憧憬和期待。<br/>即使时间流逝，有些东西是永恒的一那就是我们对美好未来的不懈追求和无限想象。</text>
+        </view>
+      </view>
+    </view>
+    <view class="section_2">
+      <view class="section_3">
+        <image src="../../images/lanhu_shouye4/SketchPng11fa824abdee94c4ba36c95d24042ea99b0a36666270ea2e9c55357a98c7479f.png" class="image_1"></image>
+        <view class="text-group_2">
+          <text lines="1" class="paragraph_4">埋藏之地：<br/>历史的见证</text>
+          <text lines="1" decode="true" class="text_3">Witness&nbsp;to&nbsp;History</text>
+        </view>
+        <text lines="1" class="text_4">选择一个充满意义的地点，或许是一片古老的森林或许是一座城市的心脏。在这片土地上，时间胶囊将静静地沉睡，与大地同呼吸，与星辰共流转。它将成为历史的见证者，见证时代的变迁和人类的发展。</text>
+      </view>
+      <image src="../../images/lanhu_shouye4/SketchPng9560200b1350390d588bfbc7dc1644a44245651ab75af4a3c3e55d1bf01b726a.png" class="image_2"></image>
+      <view class="section_4"></view>
+    </view>
+    <view class="section_5">
+      <view class="box_2">
+        <view class="box_3">
+          <image src="../../images/lanhu_shouye4/SketchPngdbe0f5d489a5a5cc230be7afa2e96fbb3ed3558766facdb51d5fbdd71f6a82e2.png" class="image_3"></image>
+          <text lines="1" decode="true" class="text_5">About&nbsp;me</text>
+          <text lines="1" class="text_6">时间胶囊的故事</text>
+        </view>
+        <view class="box_4">
+          <image src="../../images/lanhu_shouye4/SketchPng98ac76ab0962534eb05dbc6aee3fcf87494876a7c643e4ecbfdc5b16bcfbed84.png" class="image_4"></image>
+          <text lines="1" class="text_7">Exclusive</text>
+          <text lines="1" class="text_8">创建我的胶囊</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

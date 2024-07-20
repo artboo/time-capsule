@@ -1,0 +1,13 @@
+<!--index.wxml-->
+ 
+<view style="margin-bottom: 20px;">
+  <view class="btn-share" bind:tap="goBack" style="position: absolute;  top: 10px;  left: 10px;">【返回】</view>
+  <view class="btn-share" bind:tap="gotoMycapsule" style="position: absolute;  top: 10px;  right: 10px;">【我的】</view>
+</view>
+
+<view class="button" bind:tap="gotoLetterDetailPage" >【书信版】</view>
+<view class="button" bind:tap="gotoCapsuleDetailPage" >【胶囊版】</view>
+<view class="button" bind:tap="gotoCapsuleAgeDetailPage" >【胶囊时代版】（需保留8年以上）</view>
+
+ 
+ 

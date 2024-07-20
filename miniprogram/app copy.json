@@ -1,0 +1,76 @@
+{
+ 
+  "pages": [
+    "pages/index/index",
+    "pages/create-capsule/index",
+    "pages/classical_examples/index",
+    "pages/select_capsule_page/index",
+    "pages/letter_detail/index",
+    "pages/capsule_detail/index",
+    "pages/capsule_detail_age/index",
+    "pages/mycapsule/index",
+    "pages/contact_overview/index",
+    "pages/user-center/index",
+    "pages/updateRecord/index",
+    "pages/updateRecordResult/index",
+    "pages/updateRecordSuccess/index",
+    "pages/sumRecord/index",
+    "pages/sumRecordResult/index",
+    "pages/web/index",
+    "pages/example-capsule1/index",
+    "pages/example-capsule2/index",
+    "pages/example-capsule3/index",
+    "pages/example-capsule4/index",
+
+    "pages/lanhu_shouye1/component",
+    "pages/lanhu_shouye2/component",
+    "pages/lanhu_shouye3/component"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "时间胶囊",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lanhu_shouye1/component",
+        "text": "首页1"
+      },
+      {
+        "pagePath": "pages/lanhu_shouye2/component",
+        "text": "首页2"
+      },
+      {
+        "pagePath": "pages/lanhu_shouye3/component",
+        "text": "首页3"
+      }
+    ]
+  }
+
+  // "tabBar": {
+  //   "color": "#A2A9B0",
+  //   "selectedColor": "#07C160",
+  //   "backgroundColor": "#ffffff",
+  //   "list": [
+  //     {
+  //       "pagePath": "pages/index/index",
+  //       "text": "快速开始",
+  //       "iconPath": "images/icons/home.png",
+  //       "selectedIconPath": "images/icons/home-active.png"
+  //     },
+  //     {
+  //       "pagePath": "pages/user-center/index",
+  //       "text": "我",
+  //       "iconPath": "images/icons/usercenter.png",
+  //       "selectedIconPath": "images/icons/usercenter-active.png"
+  //     }
+  //   ]
+  // }
+}

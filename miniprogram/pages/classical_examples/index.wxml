@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="btn-share" bind:tap="goBack">【返回】</view>
+ 
+<view class="container">
+      <view class="boxs-item center" wx:for="{{ knowledgePoints }}" wx:for-item="point" wx:key="id">
+      
+
+        <view data-example_capsule_item='{{point}}' bind:tap="gotoCapsuleItemPage">
+          {{ point.title }}
+        </view>
+       
+      </view>
+</view>
+<!-- <view class="button with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view> -->
+<view class="center with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view>

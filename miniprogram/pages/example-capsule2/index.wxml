@@ -1,0 +1,10 @@
+<!--pages/example-capsule1/index.wxml-->
+<text>爱因斯坦5000年时间胶囊
+</text>
+<text>1938年8月10日，受美国总统罗斯福之邀，爱因斯坦怀着复杂的心情写下一封信，在信中，他回顾了人类取得的科技成果，也表达了对战争的担忧。</text>
+
+<text>这封用特制墨水和纸写成的《致后人书》，被放进一个叫“时间胶囊”的特制容器中，和代表二十世纪人类智慧的其它物品一起，埋入纽约某处15米深的花岗岩洞里。它们将在5000年后的公元6938年，被那时的人类取出。</text>
+
+<text>video</text>
+
+<view class="button with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view>

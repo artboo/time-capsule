@@ -1,0 +1,8 @@
+<!--pages/example-capsule1/index.wxml-->
+<text>史蒂夫·乔布斯埋入地下的时间胶囊
+</text>
+ 
+
+<text>video</text>
+
+<view class="button with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view>

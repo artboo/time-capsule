@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "cloud-tip-modal": "/components/cloudTipModal/index",
+    "mp-code-modal": "/components/mpCodeModal/index"
+  }
+}

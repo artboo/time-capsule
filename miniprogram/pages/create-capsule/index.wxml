@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view style="margin-bottom: 20px;">
+  <view class="btn-share" bind:tap="goBack" style="position: absolute;  top: 10px;  left: 10px;">【返回】</view>
+  <view class="btn-share" bind:tap="gotoMycapsule" style="position: absolute;  top: 10px;  right: 10px;">【我的】</view>
+</view>
+<text style="width: 650rpx;">相对论说我们无法回到过去，但时间胶囊却可以跨越时空的距离，连接未来。</text>
+<view class="tar">
+  <textarea bindinput='getInputValue'  value="{{inputValue}}"  class="textarea" placeholder="文本输入，数据会被自动保存" auto-focus confirm-type="send">
+  </textarea>
+</view>
+<view class="button with-margin" style="width: 80;" bind:tap="saveTmp">【保存草稿】</view>
+<view class="button with-margin" style="width: 80;" bind:tap="gotoSelectCapsulePage">【选择胶囊】</view>

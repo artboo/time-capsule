@@ -1,0 +1,27 @@
+/**index.wxss**/
+@import '../assets.wxss';
+page {
+  padding-top: 54rpx;
+  background-color: #fff;
+  padding-bottom: 60rpx;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.boxs-item {
+  width: calc(50% - 30rpx);
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 300px; 
+  height: 100px; 
+  background-color: #827ea5;
+  border: 1px solid #000;
+}

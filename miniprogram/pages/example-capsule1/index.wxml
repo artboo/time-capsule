@@ -1,0 +1,7 @@
+<!--pages/example-capsule1/index.wxml-->
+<text>小男孩与20年后自己对话</text>
+<text>这是国外一个有趣的故事。20年前小男孩借助手边的录像机，录制了一段录像，跟20年后的自己说了一段话。20年弹指一挥间，曾经的小男孩已经成为了30多岁的中年大叔。当他无意中翻出这盘录像带，在看过之后甚为惊讶，于是又录制了一段对话，并把两个视频剪辑在一起，做成一段跨越时空的对话。这段视频在互联网上引起了无数人的感慨。</text>
+
+<text>video</text>
+
+<view class="button with-margin" bind:tap="gotoCreateTimeCapsulePage">【创建我的胶囊】</view>
